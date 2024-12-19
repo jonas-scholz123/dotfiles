@@ -27,3 +27,12 @@ Finally, make sure no untracked files are shown/added to commits.
 ```
 dotfiles config --local status.showUntrackedFiles no
 ```
+
+
+## To use
+Just use git commands but using the `dotfiles` alias, e.g.
+```
+dotfiles add .zed/settings.json
+dotfiles commit -m "Add zed settings"
+dotfiles push
+```
