@@ -20,9 +20,10 @@ Check out the actual repo content:
 ```
 dotfiles checkout
 ```
-If you have problems, remove existing config files first.
+(If you have problems, remove existing config files first.)
 
 
+Finally, make sure no untracked files are shown/added to commits.
 ```
 dotfiles config --local status.showUntrackedFiles no
 ```
